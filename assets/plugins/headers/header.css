@@ -1,7 +1,7 @@
 .header {
   position: relative;
   z-index: 100;
-	background-color: red;
+	background-color: #e10203;;
 }
 
 .header .navbar-brand {
@@ -160,7 +160,7 @@ body:not(.header-demo) .header.navbar-scrolling .header-cart-count {
   background: #333;
 }
 body:not(.header-demo) .header.navbar-scrolling {
-  background-color: #f00;
+  background-color: #e10203;;
 }
 body:not(.header-demo) .header.header.navbar-scrolling .normal-logo {
   display: none !important;

@@ -56,7 +56,7 @@ a,
 .b-team .social-net__item:hover,
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
 .bx-wrapper .bx-pager.bx-default-pager a.active,
-.bx-wrapper .bx-pager.bx-default-pager a:focus {background-color: #009900;}
+.bx-wrapper .bx-pager.bx-default-pager a:focus {background-color: #e10203;}
 
 
 .border_prim,
@@ -70,7 +70,7 @@ a,
 .progress_border_primary,
 .forms__label-radio-2:before,
 .owl-theme_mod-a .owl-controls .owl-page.active span,
-.owl-theme_mod-a .owl-controls.clickable .owl-page:hover span {border-color: #fe3e01;}
+.owl-theme_mod-a .owl-controls.clickable .owl-page:hover span {border-color: #e10203;}
 
 .border-t_prim,
 .border-t_prim_a:after,
@@ -78,11 +78,11 @@ a,
 .border-t_prim_h:hover,
 .tooltip-1.top .tooltip-arrow,
 .tooltip-1.top-left .tooltip-arrow,
-.tooltip-1.top-right .tooltip-arrow {border-top-color: #fe3e01;}
+.tooltip-1.top-right .tooltip-arrow {border-top-color: #e10203;}
 
 .border-r_prim,
 .border-r_prim_h:hover,
-.tooltip-1.right .tooltip-arrow {border-right-color: #fe3e01;}
+.tooltip-1.right .tooltip-arrow {border-right-color: #e10203;}
 
 .border-b_prim,
 .border-b_prim_h:hover,
@@ -90,13 +90,13 @@ a,
 .tooltip-1.bottom-left .tooltip-arrow,
 .tooltip-1.bottom-right .tooltip-arrow,
 .table_primary > thead > tr > th,
-.collapse.in {border-bottom-color: #fe3e01;}
+.collapse.in {border-bottom-color: #e10203;}
 
 .border-l_prim,
 .border-l_prim_h:hover,
 .tooltip-1.left .tooltip-arrow,
 .border-left_primary:before,
-.b-blockquote-1 {border-left-color: #fe3e01;}
+.b-blockquote-1 {border-left-color: #e10203;}
 
 
 
@@ -158,3 +158,7 @@ a,
 .table_secondary > thead > tr > th {border-bottom-color: #0097c2;}
 
 
+
+navbar .navbar-nav > li > a, .text-primary, .text-primary_h:hover, .text-primary_b:before, .text-primary_a:after, .list > li > a:hover, .list-mark-1 li:before, .pager li > a:hover, .pager li > a:hover .icon, .pagination_primary > li:first-child > a:hover, .pagination_primary > li:first-child > a:hover .icon, .pagination_primary > li:last-child > a:hover, .pagination_primary > li:last-child > a:hover .icon, .search-close:hover, .breadcrumb > li > a:hover, .navbar .navbar-nav > li > a:hover, .b-blockquote-3:after, .b-contact-social-net .social-net .social-net__link:hover, .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus, .footer-list__link:hover, .list_icon_color-primary li:before {
+    color: black;
+}

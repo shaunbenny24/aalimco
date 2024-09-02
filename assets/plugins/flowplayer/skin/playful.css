@@ -367,5 +367,5 @@
 .flowplayer .fp-mute{top:-9.5px;}
 .flowplayer .fp-mute:before{content:"\e60c";vertical-align:0;}
 .is-muted.is-ready.flowplayer .fp-mute:before{content:"\e60c";color:#ccc}
-.flowplayer .fp-mute:after{content:'';background-color:#9ebb11;width:6px;height:6px;display:block;position:absolute;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;right:2px;top:11px;}
-.is-muted.flowplayer .fp-mute:after{background-color:#f00}
+.flowplayer .fp-mute:after{content:'';background-color:#e10203;width:6px;height:6px;display:block;position:absolute;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;right:2px;top:11px;}
+.is-muted.flowplayer .fp-mute:after{background-color:#e10203}
