@@ -170,3 +170,29 @@ navbar .navbar-nav > li > a, .text-primary, .text-primary_h:hover, .text-primary
     display: none;
 }
   }
+
+
+  #hidenavv{
+    display: none;
+}
+
+
+
+.serviceimg {
+    width: 100%;
+    height: auto;
+    max-width: 626px;
+    max-height: 626px;
+    object-fit: cover;
+}
+#height{
+    max-height: 120px;
+    background-size: cover;
+}
+
+
+
+#heightx{
+    max-height: 220px;
+    background-size: cover;
+}
