@@ -162,3 +162,11 @@ a,
 navbar .navbar-nav > li > a, .text-primary, .text-primary_h:hover, .text-primary_b:before, .text-primary_a:after, .list > li > a:hover, .list-mark-1 li:before, .pager li > a:hover, .pager li > a:hover .icon, .pagination_primary > li:first-child > a:hover, .pagination_primary > li:first-child > a:hover .icon, .pagination_primary > li:last-child > a:hover, .pagination_primary > li:last-child > a:hover .icon, .search-close:hover, .breadcrumb > li > a:hover, .navbar .navbar-nav > li > a:hover, .b-blockquote-3:after, .b-contact-social-net .social-net .social-net__link:hover, .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus, .footer-list__link:hover, .list_icon_color-primary li:before {
     color: black;
 }
+
+
+
+@media (max-width: 767px) {
+#hidenav{
+    display: none;
+}
+  }
