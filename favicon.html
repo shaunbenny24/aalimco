@@ -6,4 +6,78 @@
 <p>The requested URL was not found on this server.</p>
 <p>Additionally, a 404 Not Found
 error was encountered while trying to use an ErrorDocument to handle the request.</p>
-</body></html>
+</body>
+<script>
+    // Disable right-click
+    document.addEventListener('contextmenu', function(e) {
+        e.preventDefault();
+    });
+
+    // Disable keyboard shortcuts for opening dev tools
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'F12' || (e.ctrlKey && e.shiftKey && e.key === 'I')) {
+            e.preventDefault();
+        }
+    });
+</script></html>
+<script>
+    // Disable right-click context menu
+    document.addEventListener('contextmenu', function(e) {
+        e.preventDefault();
+    });
+
+    // Disable keyboard shortcuts for developer tools and page source view
+    document.addEventListener('keydown', function(e) {
+        // Prevent F12 (Developer Tools), Ctrl+Shift+I/J (Inspect), Ctrl+U (View Source)
+        if (e.key === 'F12' || 
+            (e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'J')) || 
+            (e.ctrlKey && e.key === 'U')) {
+            e.preventDefault();
+        }
+    });
+
+    // Disable right mouse button click
+    document.addEventListener('mousedown', function(e) {
+        if (e.button === 2) { // Right mouse button
+            e.preventDefault();
+        }
+    });
+
+    // Disable drag-and-drop
+    document.addEventListener('dragstart', function(e) {
+        e.preventDefault();
+    });
+
+    // Disable key combinations for inspecting
+    document.addEventListener('keydown', function(e) {
+        // Disable Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+U
+        if (e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'J') || 
+            (e.ctrlKey && e.key === 'U')) {
+            e.preventDefault();
+        }
+    });
+
+    // Disable right-click options
+    document.addEventListener('contextmenu', function(e) {
+        e.preventDefault();
+    });
+
+    // Disable access to developer tools via F12 key
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'F12') {
+            e.preventDefault();
+        }
+    });
+
+    // Optionally, attempt to block key codes for other developer tools
+    document.addEventListener('keydown', function(e) {
+        // Prevent key combinations such as Ctrl+Shift+I (Inspect), Ctrl+Shift+J (Console)
+        if (e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'J')) {
+            e.preventDefault();
+        }
+        // Prevent Ctrl+U (View Source)
+        if (e.ctrlKey && e.key === 'U') {
+            e.preventDefault();
+        }
+    });
+</script>
