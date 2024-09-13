@@ -256,3 +256,38 @@ navbar .navbar-nav > li > a, .text-primary, .text-primary_h:hover, .text-primary
 }
 
 
+
+
+
+
+/* Ensure all images have the same height */
+#height {
+    height: 200px; /* Adjust the height as necessary */
+    object-fit: cover; /* Ensures images fill the container without distortion */
+    width: 100%;
+}
+
+/* Align buttons and content */
+.b-post-sm .entry-header {
+    text-align: center;
+    min-height: 150px; /* Ensures consistent height for the text area */
+}
+
+.b-post-sm .btn {
+    display: inline-block;
+    margin-top: 10px; /* Adds spacing above the button */
+    vertical-align: bottom;
+}
+
+/* Align all tiles uniformly */
+.col-sm-2 {
+    margin-bottom: 20px; /* Add some spacing between rows */
+}
+
+/* Set a consistent height for the sections to ensure they all align */
+.b-post-sm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
