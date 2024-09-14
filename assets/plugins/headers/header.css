@@ -1,7 +1,7 @@
 .header {
   position: relative;
   z-index: 100;
-	background-color: #e10203;;
+	background-color: white;;
 }
 
 .header .navbar-brand {
@@ -54,17 +54,17 @@
 }
 
 
-/*BACKGROUND  WHITE #fff */
+/*BACKGROUND  WHITE black */
 
 .header.header-background-white {
-  background: #fff;
+  background: black;
 }
 .header.header-background-white .top-bar {
   border-bottom: 1px solid rgba(000, 000, 000, 0.15);
 }
 
 
-/*BACKGROUND  WHITE #fff */
+/*BACKGROUND  WHITE black */
 
 .header.header-background-trans-white-rgba09 {
   background-color: rgba(255, 255, 255, 0.9);
@@ -98,23 +98,23 @@
 }
 
 
-/*COLOR FONTS WHITE #fff */
+/*COLOR FONTS WHITE black Hover animation */
 
 .header-color-white *,
 .header.header-color-white .navbar .navbar-nav > li > a {
-  color: #fff;
+  color: black;
 }
 .header.header-color-white .toggle-menu-button .toggle-menu-button-icon span {
-  background: #fff;
+  background: black;
 }
 .header.header-color-white .navbar .navbar-nav > li > a:hover {
-  color: #fff;
+  color: black;
 }
 .header.header-color-white .toggle-menu-button.is-open .toggle-menu-button-icon span {
-  background: #fff;
+  background: black;
 }
 .header.header-color-white .header-cart-count {
-  color: #fff;
+  color: black;
 }
 
 
@@ -128,7 +128,7 @@
   background: #333;
 }
 .header.header-color-black .header-cart-count {
-  color: #fff;
+  color: black;
   background: #333;
 }
 
@@ -142,11 +142,13 @@ body:not(.header-demo) .navbar-scrolling {
   top: 0;
   z-index: 1030;
 }
+
+/* scrolling header animation color  */
 body:not(.header-demo) .navbar-scrolling * {
-  color: #333;
+  color: #5394a7;
 }
 body:not(.header-demo) .header.navbar-scrolling .navbar .navbar-nav > li > a {
-  color:#FFFFFF;
+  color:blackFFF;
 }
 body:not(.header-demo) .header.navbar-scrolling .navbar .navbar-nav > li:hover > a,
 .header.navbar-scrolling .navbar .navbar-nav > li a:hover {
@@ -156,11 +158,11 @@ body:not(.header-demo) .header.navbar-scrolling .navbar .toggle-menu-button .tog
   background: #333;
 }
 body:not(.header-demo) .header.navbar-scrolling .header-cart-count {
-  color: #fff;
+  color: black;
   background: #333;
 }
 body:not(.header-demo) .header.navbar-scrolling {
-  background-color: #e10203;;
+  background-color: white;;
 }
 body:not(.header-demo) .header.header.navbar-scrolling .normal-logo {
   display: none !important;
@@ -250,7 +252,7 @@ body:not(.header-demo) .navbar-scrolling .top-bar {
 }
 .header-boxed-width .navbar-scrolling #nav {
   margin-top: 15px;
-  background: #fff;
+  background: black;
 }
 .header-boxed-width .navbar-scrolling .top-bar {
   display: none;
@@ -299,7 +301,7 @@ body:not(.header-demo) .navbar-scrolling .top-bar {
   display: none !important;
 }
 .top-bar {
-  background-color: #e10203;
+  background-color: white;
 }
 .top-bar-contact {
   margin: 0;
@@ -308,14 +310,14 @@ body:not(.header-demo) .navbar-scrolling .top-bar {
 }
 .top-bar-contact__item {
   display: inline-block;
-  color: #FFF;
+  color: black;
   font-size: 12px;
   font-weight: 700;
   margin-right: 39px;
   line-height: 1;
 }
 .top-bar-contact__item .icon {
-  color:#ff0;
+  color:rgb(224, 207, 59);
   font-size: 16px;
   display: inline-block;
   vertical-align: sub;
@@ -415,7 +417,7 @@ body:not(.header-demo) .navbar-scrolling .top-bar {
   background: #333 !important;
 }
 .header.scrolling-header .navbar.navbar-default.navbar-scrolling-fixing {
-  background: #fff;
+  background: black;
 }
 .header {
   -webkit-transition: all 0.3s ease-out;
@@ -484,7 +486,7 @@ body:not(.header-demo) .navbar-scrolling .top-bar {
      -moz-transition: color 0.3s ease-out;
           transition: color 0.3s ease-out;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color:#4a4a4a;
   font-family: Poppins;
   font-size: 13px;
   font-weight: 600;
@@ -683,7 +685,7 @@ body:not(.header-demo) .navbar-scrolling .top-bar {
   width: 50%;
   height: 50%;
   font-size: 14px;
-  color: #fff;
+  color: black;
   vertical-align: middle;
   vertical-align: middle;
   background: #333;
@@ -696,7 +698,7 @@ body:not(.header-demo) .navbar-scrolling .top-bar {
   display: none !important;
 }
 .wrap-fixed-menu .menu-item.contact-info * {
-  color: #fff;
+  color: black;
 }
 .wrap-fixed-menu .menu-item .subtitle {
 }
@@ -712,7 +714,7 @@ body:not(.header-demo) .navbar-scrolling .top-bar {
 .wrap-fixed-menu .menu-item.contact-info h4 {
   font-size: 36px;
   font-weight: bold;
-  color: #fff;
+  color: black;
 }
 .wrap-fixed-menu .menu-item.contact-info .fa {
   margin-right: 10px;
@@ -736,7 +738,7 @@ body:not(.header-demo) .navbar-scrolling .top-bar {
   display: block;
   font-size: 36px;
   font-weight: bold;
-  color: #fff;
+  color: black;
 }
 .header-cart {
   position: relative;
@@ -758,7 +760,7 @@ body:not(.header-demo) .navbar-scrolling .top-bar {
   padding: 5px;
   font-size: 10px;
   line-height: 6px;
-  color: #fff;
+  color: black;
   border-radius: 50%;
   text-align: center;
 }
@@ -776,11 +778,11 @@ body:not(.header-demo) .navbar-scrolling .top-bar {
   text-align: center;
 }
 .header-section h2 {
-  color: #fff;
+  color: black;
   text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
 }
 .header-section p {
-  color: #fff;
+  color: black;
 }
 .header-section.elements-header {
   background: url(../../img/section-1-demo.html) top center no-repeat;
@@ -851,7 +853,7 @@ summary {
   position: fixed;
   display: none;
   color: white; /* Basic colors, overwrite this in your own css. */
-  background-color: black; /* Basic background color, overwrite this in your own css. */
+  background-color:#0097c2; /* Basic background color, overwrite this in your own css. */
   overflow: hidden;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch; /* Enables momentum scrolling on iOS devices, may be removed by setting to 'auto' in your own CSS. */
@@ -985,7 +987,7 @@ html [data-off-canvas*=open] {
   width: 100%;
   margin: 0;
   padding: 10px 20px;
-  color: #fff;
+  color: rgb(243, 248, 248);
 }
 
 
@@ -1016,7 +1018,7 @@ html [data-off-canvas*=open] {
   height: 60px;
   font-size: 18px;
   border: none;
-  background-color: #fff !important;
+  background-color: black !important;
   opacity: 1 !important;
   z-index: 999;
   transition: all 0.3s;
@@ -1028,7 +1030,7 @@ html [data-off-canvas*=open] {
   padding-left: 22px;
   font-size: 14px;
   color: #666;
-  background-color: #fff;
+  background-color: black;
 }
 .header-search.open {
   visibility: visible;
@@ -1044,20 +1046,20 @@ html [data-off-canvas*=open] {
   padding-right: 50px;
   padding-bottom: 12px;
   font: 700 72px Montserrat;
-  color: #fff;
+  color: black;
   border: none;
   border-bottom: 1px solid #919191;
   background-color: transparent;
   opacity: 1;
 }
 .search-global__input::-moz-placeholder {
-  color: #fff;
+  color: black;
 }
 .search-global__input:-ms-input-placeholder {
-  color: #fff;
+  color: black;
 }
 .search-global__input::-webkit-input-placeholder {
-  color: #fff;
+  color: black;
 }
 .search-global__input:focus {
   outline-style: none;
@@ -1067,7 +1069,7 @@ html [data-off-canvas*=open] {
   top: 34px;
   right: 0;
   font-size: 30px;
-  color: #fff;
+  color: black;
   border: none;
   background-color: transparent;
   transition: all 0.3s;
@@ -1165,7 +1167,7 @@ html [data-off-canvas*=open] {
   border: 1px solid rgba(255, 255, 255, 0.15);
 }
 .side-cart a {
-  color: #fff;
+  color: black;
 }
 .side-search {
   display: inline-block;
@@ -1175,7 +1177,7 @@ html [data-off-canvas*=open] {
 }
 .side-form-search {
   position: relative;
-  background: #fff;
+  background: black;
 }
 .side-form-search input[type=search] {
   padding: 10px;
@@ -1265,7 +1267,7 @@ html [data-off-canvas*=open] {
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
-    color: #fff;
+    color: black;
     position: relative;
     z-index: 88;
     padding: 0 0 15px 0;
@@ -1287,7 +1289,7 @@ opacity: 0.7;
     height: 60px;
     font-size: 18px;
     border: none;
-    background-color: #fff !important;
+    background-color: black !important;
     opacity: 1 !important;
     z-index: 999;
     transition: all 0.3s;
@@ -1339,7 +1341,7 @@ opacity: 0.7;
     position: absolute;
     top: 32px;
     left: 0;
-    color: #fff;
+    color: #5394a7 ;
 }
 
 ul ul .submenu-controll-fullscreen {
@@ -1360,7 +1362,7 @@ ul ul .submenu-controll-fullscreen {
     height: 60px;
     font-size: 18px;
     border: none;
-    background-color: #fff !important;
+    background-color: black !important;
     opacity: 1 !important;
     z-index: 999;
 }
