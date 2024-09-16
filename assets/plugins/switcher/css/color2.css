@@ -109,7 +109,7 @@ a,
 .pagination_secondary > li:first-child > a:hover,
 .pagination_secondary > li:first-child > a:hover .icon,
 .pagination_secondary > li:last-child > a:hover,
-.pagination_secondary > li:last-child > a:hover .icon {color: #0097c2;}
+.pagination_secondary > li:last-child > a:hover .icon {color: #5394a7 ;}
 
 .bg-second,
 .bg-second_h:hover,
@@ -121,7 +121,7 @@ a,
 .pagination_secondary > .active > span,
 .pagination_secondary > li > a:hover,
 .pagination_secondary > li > a:focus,
-.forms__label-radio-1:before {background-color: #0097c2;}
+.forms__label-radio-1:before {background-color: #5394a7 ;}
 
 .border_second,
 .border_second_h:hover,
@@ -132,7 +132,7 @@ a,
 .pagination_secondary > .active > span,
 .pagination_secondary > li > a:hover,
 .pagination_secondary > li > a:focus,
-.forms__label-radio-1:before {border-color: #0097C2;}
+.forms__label-radio-1:before {border-color: #5394a7 ;}
 
 .border-t_second,
 .border-t_second_a:after,
@@ -140,19 +140,19 @@ a,
 .border-t_second_h:hover,
 .tooltip-2.top .tooltip-arrow,
 .tooltip-2.top-left .tooltip-arrow,
-.tooltip-2.top-right .tooltip-arrow {border-top-color: #0097c2;}
+.tooltip-2.top-right .tooltip-arrow {border-top-color: #5394a7 ;}
 
 .border-r_second,
 .border-r_second_h:hover,
-.tooltip-2.right .tooltip-arrow {border-right-color: #0097c2;}
+.tooltip-2.right .tooltip-arrow {border-right-color: #5394a7 ;}
 
 .border-l_second,
 .border-l_second_h:hover,
-.tooltip-2.left .tooltip-arrow {border-left-color: #0097c2;}
+.tooltip-2.left .tooltip-arrow {border-left-color: #5394a7 ;}
 
 .border-b_second,
 .border-b_second_h:hover,
 .tooltip-2.bottom .tooltip-arrow,
 .tooltip-2.bottom-left .tooltip-arrow,
 .tooltip-2.bottom-right .tooltip-arrow,
-.table_secondary > thead > tr > th {border-bottom-color: #0097c2;}
+.table_secondary > thead > tr > th {border-bottom-color: #5394a7 ;}

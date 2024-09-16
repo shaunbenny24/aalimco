@@ -853,7 +853,7 @@ summary {
   position: fixed;
   display: none;
   color: white; /* Basic colors, overwrite this in your own css. */
-  background-color:#0097c2; /* Basic background color, overwrite this in your own css. */
+  background-color:#5394a7 ; /* Basic background color, overwrite this in your own css. */
   overflow: hidden;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch; /* Enables momentum scrolling on iOS devices, may be removed by setting to 'auto' in your own CSS. */
