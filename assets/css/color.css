@@ -294,6 +294,20 @@ navbar .navbar-nav > li > a, .text-primary, .text-primary_h:hover, .text-primary
 
 
 
-/* 
+/* /*  */
+
+
+.whatsapp-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Ensures the content takes up the full height of the parent */
+    margin: 34px 70px;
+}
+
+.whatsapp-btn {
+    font-size: 22px;
+    color: #5394a7;
+}
 
 
