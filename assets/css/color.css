@@ -311,3 +311,42 @@ navbar .navbar-nav > li > a, .text-primary, .text-primary_h:hover, .text-primary
 }
 
 
+.b-title-page {
+    padding-top: 100px; /* Adjust as needed */
+  }
+  
+
+
+  .navbar {
+    position: relative;
+    z-index: 10; /* Ensures the navbar is above the title section */
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    z-index: 20; /* Ensures the dropdown menu is above the title section */
+  }
+  
+  .b-title-page {
+    position: relative;
+    z-index: 1; /* Keeps the title section below the navbar and dropdown menu */
+  }
+  
+  
+
+  .section-texture_green {
+    background-color: #5394a7; /* Darker shade of #5394a7 */
+    color: #ffffff; /* Text color for contrast */
+  }
+  
+  .section-texture_blue {
+    background-color: #5394a7; /* Lighter shade of #5394a7 */
+    color: #ffffff; /* Text color for readability */
+  }
+  .section-texture_grey {
+  background-color: #5394a7; /* Soft gray with a hint of blue to harmonize with #5394a7 */
+  color: #ffffff; /* White text for clarity */
+}
+
+  
+
